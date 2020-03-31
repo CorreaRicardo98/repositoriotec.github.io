@@ -19,8 +19,7 @@ $(document).ready(function() {
     });
   });
 
-  $(".logo").hide();
-  $(".logo").fadeOut(2000);
+  $(".logo").fadeOut(2000).delay(3000).fadeIn(2000);
 
   });
 
