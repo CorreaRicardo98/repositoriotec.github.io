@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/materialize.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper light-blue lighten-1">
+          <a href="#" class="brand-logo"><img src="../../images/cEstudio.jfif" class="logo"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="materia.html">Regresar</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col s0 m2 l2"></div>
+        <div class="col s12 m8 l8 center-align">
+          <div class="card blue lighten-5">
+            <div class="card-content white-black">
+                <div class="container">
+                  <form action="">
+                    <h4>Editar Materia</h4>
+
+                    <div class="col s12 m12 l12">
+                      <div class="input-field col s12 center-align">
+                        <input id="nombre" type="text" class="validate center-align">
+                        <label class="center-align" for="nombre">Nombre</label>
+                      </div>
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">textsms</i>
+                        <input type="text" id="autocomplete-input" class="autocomplete no-autoinit">
+                        <label for="autocomplete-input">Autocomplete</label>
+                      </div>
+                      <div class="input-field col s12">
+                        <select>
+                          <option value="0" disabled selected>Seleccione</option>
+                          <option value="1">1ro</option>
+                          <option value="2">2do</option>
+                          <option value="3">3ro</option>
+                          <option value="4">4to</option>
+                          <option value="5">5to</option>
+                          <option value="6">6to</option>
+                          <option value="7">7mo</option>
+                          <option value="8">8vo</option>
+                          <option value="9">9no</option>
+                        </select>
+                        <label>Semestre de la materia</label>
+                      </div>
+                    </div>
+                  
+                  <br><br>
+                  <button type="submit" class="btn center-align">Actualizar</button>
+                  </form>
+                </div>
+            </div>
+          </div>
+          </div>
+        <div class="col s0 m2 l2"></div>
+        </div>
+      </div>
+        
+
+
+      <script src="../../js/jquery-1.12.3.min.js"></script>
+      <script src="../../js/materialize.js"></script>
+      <script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,1 +1,0 @@
-# repositoriotec.github.io

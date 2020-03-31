@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <ul id='dropdown1' class='dropdown-content'>
+        <li><a class="waves-effect waves-light modal-trigger" href="#modal1">Agregar</a></li>
+        <li><a href="instructor/usuario.html">Gestionar</a></li>
+    </ul>
+    <ul id='dropdown2' class='dropdown-content'>
+        <li><a class="waves-effect waves-light modal-trigger" href="#modal2">Agregar</a></li>
+        <li><a href="auditor/auditor.html">Gestionar</a></li>
+    </ul>
+    <ul id='dropdown3' class='dropdown-content'>
+        <li><a class="waves-effect waves-light modal-trigger" href="#modal3">Agregar</a></li>
+        <li><a href="materia/materia.html">Gestionar</a></li>
+    </ul>
+    <ul id='dropdown4' class='dropdown-content'>
+        <li><a href="#!">Gestionar</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper light-blue lighten-1">
+          <a href="#" class="brand-logo"><img src="../images/cEstudio.jfif" class="logo"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Instructor(alumno)</a></li>
+            <li><a class='dropdown-trigger' href='#' data-target='dropdown2'>Auditor</a></li>
+            <li><a class='dropdown-trigger' href='#' data-target='dropdown3'>Materias</a></li>
+            <li><a class='dropdown-trigger' href='#' data-target='dropdown4'>Semestre</a></li>
+            <li><a href="#asesorias">Cerrar sesion</a></li>
+          </ul>
+        </div>
+      </nav>
+<br>
+<br>
+<br>
+<br>
+
+    <div class="container center-align">
+      <div class="row">
+        <div class="col s4 m4 l4">
+          <div class="card blue lighten-5">
+            <div class="card-content center-align">
+              <h5>Maestros</h5>
+              <h4>0</h4>
+            </div>
+            </div>
+        </div>
+        <div class="col s4 m4 l4">
+          <div class="card blue lighten-5">
+            <div class="card-content center-align">
+              <h5>Instructores</h5>
+              <h4>0</h4>
+            </div>
+            </div>
+        </div>
+        <div class="col s4 m4 l4">
+          <div class="card blue lighten-5">
+            <div class="card-content center-align">
+              <h5>Materias</h5>
+              <h4>0</h4>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+<br><br><br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+      <div id="modal1" class="modal ">
+        <div class="modal-content">
+          
+          <form action="">
+            <div class="container">
+              <div class="row">
+               
+                <div class="col s12 m12 l12">
+                  <h4 class="center-align">Agregar un instructor</h4>
+                  <p class="center-align">Llenar todos los campos</p>
+                  <br>
+                  <div class="input-field col s12 center-align">
+                    <input id="nombre" type="text" class="validate center-align">
+                    <label class="center-align" for="nombre">Nombre</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input id="apaterno" type="text" class="validate center-align">
+                    <label class="center-align" for="apaterno">Apellido Paterno</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input id="amaterno" type="text" class="validate center-align">
+                    <label class="center-align" for="amaterno">Apellido Materno</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input id="correo" type="text" class="validate center-align">
+                    <label class="center-align" for="correo">Correo Electronico</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input  id="numero" type="text" class="validate center-align">
+                    <label class="center-align" for="numero">Número telefónico</label>
+                  </div>
+                </div>
+                
+                
+              </div>
+            </div>
+         
+        </div>
+        <div class="modal-footer">
+          <a href="" class="modal-close waves-effect waves-green btn">Enviar</a>
+        </form>
+        </div>
+      </div>
+
+      <div id="modal2" class="modal ">
+        <div class="modal-content">
+          
+          <form action="">
+            <div class="container">
+              <div class="row">
+               
+                <div class="col s12 m12 l12">
+                  <h4 class="center-align">Agregar un Auditor</h4>
+                  <p class="center-align">Llenar todos los campos</p>
+                  <br>
+                  <div class="input-field col s12 center-align">
+                    <input id="nombre" type="text" class="validate center-align">
+                    <label class="center-align" for="nombre">Nombre</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input id="apaterno" type="text" class="validate center-align">
+                    <label class="center-align" for="apaterno">Apellido Paterno</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input id="amaterno" type="text" class="validate center-align">
+                    <label class="center-align" for="amaterno">Apellido Materno</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input id="academia" type="text" class="validate center-align">
+                    <label class="center-align" for="academia">Academia</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input id="correo" type="text" class="validate center-align">
+                    <label class="center-align" for="correo">Correo Electronico</label>
+                  </div>
+                  <div class="input-field col s12 center-align">
+                    <input  id="numero" type="text" class="validate center-align">
+                    <label class="center-align" for="numero">Número telefónico</label>
+                  </div>
+                </div>
+                
+                
+              </div>
+            </div>
+         
+        </div>
+        <div class="modal-footer">
+          <a href="" class="modal-close waves-effect waves-green btn">Enviar</a>
+        </form>
+        </div>
+      </div>
+
+      <div id="modal3" class="modal ">
+        <div class="modal-content">
+          
+          <form action="">
+            <div class="container">
+              <div class="row">
+               
+                <div class="col s12 m12 l12">
+                  <h4 class="center-align">Agregar Una Materia</h4>
+                  <p class="center-align">Llenar todos los campos</p>
+                  <br>
+                  <div class="input-field col s12 center-align">
+                    <input id="nombre" type="text" class="validate center-align">
+                    <label class="center-align" for="nombre">Nombre</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">textsms</i>
+                    <input type="text" id="autocomplete-input" class="autocomplete no-autoinit">
+                    <label for="autocomplete-input">Autocomplete</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <select>
+                      <option value="0" disabled selected>Seleccione</option>
+                      <option value="1">1ro</option>
+                      <option value="2">2do</option>
+                      <option value="3">3ro</option>
+                      <option value="4">4to</option>
+                      <option value="5">5to</option>
+                      <option value="6">6to</option>
+                      <option value="7">7mo</option>
+                      <option value="8">8vo</option>
+                      <option value="9">9no</option>
+                    </select>
+                    <label>Semestre de la materia</label>
+                  </div>
+                </div>
+                
+                
+              </div>
+            </div>
+         
+        </div>
+        <div class="modal-footer">
+          <a href="" class="modal-close waves-effect waves-green btn">Enviar</a>
+        </form>
+        </div>
+      </div>
+
+
+      <footer class="page-footer light-blue lighten-1">
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright Derechos reservados
+          </div>
+        </div>
+      </footer>
+
+<script src="../js/jquery-1.12.3.min.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/script.js"></script>
+    
+</body>
+</html>
