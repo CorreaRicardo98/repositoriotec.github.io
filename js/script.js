@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 
   $(".chip").mouseenter(function(){
-    $(this).fadeTo(1000,0.7);
+    $(this).fadeTo(1000,0.3);
   });
 
   $(".chip").mouseleave(function(){
