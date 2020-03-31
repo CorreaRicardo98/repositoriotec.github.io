@@ -7,19 +7,19 @@ $(document).ready(function() {
 
   $(".chip").mouseenter(function(){
     $(this).animate({
-      height:'+=5px',
-			width:'+=5px'
+      height:'+=10px',
+			width:'+=10px'
     });
   });
 
   $(".chip").mouseleave(function(){
     $(this).animate({
-      height:'-=5px',
-			width:'-=5px'
+      height:'-=10px',
+			width:'-=10px'
     });
   });
 
-  $(".logo").fadeOut(2000).delay(3000).fadeIn(2000);
+  $(".logo").fadeOut(2000).fadeIn(2000);
 
   });
 
