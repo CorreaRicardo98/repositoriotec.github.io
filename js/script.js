@@ -7,15 +7,15 @@ $(document).ready(function() {
 
   $(".chip").mouseenter(function(){
     $(this).animate({
-      height:'+=5px',
-			width:'+=5px'
+      height:'+=3px',
+			width:'+=3px'
     });
   });
 
   $(".chip").mouseleave(function(){
     $(this).animate({
-      height:'-=5px',
-			width:'-=5px'
+      height:'-=3px',
+			width:'-=3px'
     });
   });
 
