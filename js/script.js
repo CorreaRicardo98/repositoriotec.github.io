@@ -19,7 +19,8 @@ $(document).ready(function() {
     });
   });
 
-  $(".logo").fadeOut(2000).fadeIn(2000);
+  $("#logo4").fadeOut(2000).fadeIn(2000);
+  $("#logo5").fadeOut(2000).fadeIn(2000);
 
   });
 
