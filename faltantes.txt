@@ -1,0 +1,16 @@
+1.-Las tablas del inicio--->cambiar los datos*
+2.-Logo de navBar*
+3.-Cambiar de lugar el boton ingresar*
+4.-Cambiar tablas en instructor*
+5.-Modificar tablas ver---->instructor*
+6.-boton de regresar al buzon de instructor*
+7.-chips en el buzon*
+8.-Empezar con las pantallas de administrador
+
+mañana 8:00 a 10? empezar lo de web 
+
+ADMINISTRADOR
+-Dar de alta alumnos
+-Dar de alta materias
+-Cerrar el semestre
+-A	gregar auditor

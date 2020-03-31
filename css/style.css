@@ -1,0 +1,25 @@
+
+
+.logo {
+  width: 65px;
+  height: 65px;
+}
+
+.content-body{
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 400px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+ 

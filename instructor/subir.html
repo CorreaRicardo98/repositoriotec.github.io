@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/materialize.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper light-blue lighten-1">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Regresar</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br>
+      <br>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col s0 m2 l2"></div>
+        <div class="col s12 m8 l8 center-align">
+          <div class="card blue lighten-5">
+            <div class="card-content white-black">
+                <div class="container">
+                  <form action="">
+                    <h4>Subir Contenido</h4>
+                  <div class="input-field col s12 center-align">
+                    <input id="nombreC" type="text" class="validate center-align">
+                    <label class="center-align" for="nombreC">Nombre del Contenido</label>
+                  </div>
+                  <br><br>
+                  <br>
+                  <br>
+                  <div class="file-field input-field">
+                    <div class="btn">
+                      <span>Seleccionar...</span>
+                      <input type="file" multiple>
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                    </div>
+                  </div>
+                  <div class="input-field col s12">
+                    <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                    <label for="textarea2">Descripcion (Opcional)</label>
+                  </div>
+                  <p>
+                    <label>
+                      <input name="group1" type="radio" checked />
+                      <span>Videos</span>
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <input name="group1" type="radio" />
+                      <span>Documentos</span>
+                    </label>
+                  </p>
+                  <br><br>
+                  <button type="submit" class="btn center-align">Subir</button>
+                  </form>
+                </div>
+            </div>
+          </div>
+          </div>
+        <div class="col s0 m2 l2"></div>
+        </div>
+      </div>
+        
+
+
+
+<script src="../js/jquery-1.12.3.min.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

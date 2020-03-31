@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .img-cuadrada{
+      width: 100px;
+      height: 500px;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="carreras/index.html">Carrera</a></li>
+    <li><a href="cienciasB/index.html">Ciencias Basicas</a></li>
+  </ul>
+        
+  <nav>
+    <div class="nav-wrapper light-blue lighten-1">
+      <a href="#" class="brand-logo"><img src="images/cEstudio.jfif" class="logo"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#asesorias">Asesorias</a></li>
+        <li><a href="#cEstudio">Circulos de estudio</a></li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Consultas</a></li>
+        <li><a class="waves-effect waves-light modal-trigger" href="#modal1">Ingresar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+<br>
+<br>
+<br>
+<br>
+
+  <div class="carousel carousel-slider center">
+    <a class="carousel-item" href="#one!"><img class ="img-cuadrada" src="images/itm.jpg"></a>
+    <a class="carousel-item" href="#two!"><img class ="img-cuadrada" src="images/generacion.jpg"></a>
+    <a class="carousel-item" href="#three!"><img class ="img-cuadrada" src="images/itm.jpg"></a>
+    <a class="carousel-item" href="#four!"><img class ="img-cuadrada" src="images/generacion.jpg"></a>
+  </div>
+
+<div class="container">
+<div class="row">
+  <div class="col center-align s12 m12 l12">
+    <h2 id="asesorias" class="center-align ">Horarios de Asesorias</h2>
+  </div>
+
+  <div class="col s12 m12 l12">
+    <table class="centered responsive-table highlight">
+      <thead>
+        <tr>
+            <th>Maestro</th>
+            <th>Materia</th>
+            <th>Horarios</th>
+            <th>Ubicacion</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Laura Nelly</td>
+          <td>Fundamentos de programación</td>
+          <td>12:00 - 14:00</td>
+          <td>Edificio A</td>
+        </tr>
+        <tr>
+          <td>Jorge Adrian</td>
+          <td>Ingenieria en Software</td>
+          <td>15:00 - 17:00</td>
+          <td>Edificio I</td>
+        </tr>
+        <tr>
+          <td>Aburto Bedolla</td>
+          <td>Ecuaciones diferenciales</td>
+          <td>12:00 - 14:00</td>
+          <td>Edificio AC</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+<div class="container">
+  <div class="row">
+  <div class="col center-align s12 m12 l12">
+    <h2 id="cEstudio" class="center-align ">Horarios de Circulos de Estudio (Ciencias Basicas)</h2>
+  </div>
+
+  <div class="col s12 m12 l12">
+    <table class="centered responsive-table highlight">
+      <thead>
+        <tr>
+            <th>Asesor (Alumno)</th>
+            <th>Materia</th>
+            <th>Horarios</th>
+            <th>Ubicacion</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Alvin Gonzalez</td>
+          <td>Ecuaciones diferenciales</td>
+          <td>12:00 - 13:00</td>
+          <td>AF Centro de Informacion</td>
+        </tr>
+        <tr>
+          <td>Alan Arreola</td>
+          <td>Calculo diferencial</td>
+          <td>13:00 - 14:00</td>
+          <td>AF Centro de Informacion</td>
+        </tr>
+        <tr>
+          <td>Jonathan Alvarez/td>
+          <td>Matematicas discretas</td>
+          <td>13:00 - 14:00</td>
+          <td>AF Centro de Informacion</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</div>
+</div>
+
+<div id="modal1" class="modal ">
+  <div class="modal-content">
+    
+    <form action="">
+      <div class="container">
+        <div class="row">
+         
+          <div class="col s12 m12 l12">
+            <h4 class="center-align">Ingresar</h4>
+            <p class="center-align">Llenar todos los campos</p>
+            <br>
+            <div class="input-field col s12 center-align">
+              <input placeholder="ejemplo@morelia.tecnm.mx" id="correo" type="text" class="validate center-align">
+              <label class="center-align" for="correo">Correo Electronico</label>
+            </div>
+            <div class="input-field col s12 center-align">
+              <input placeholder="°°°°°°°°°°" id="pass" type="password" class="validate center-align">
+              <label class="center-align" for="pass">Contraseña</label>
+            </div>
+            <p>
+              <label>
+                <input name="group1" type="radio" checked />
+                <span>Instructor</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="group1" type="radio" />
+                <span>Auditor</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="group1" type="radio" />
+                <span>Administrador</span>
+              </label>
+            </p>
+            <a href="instructor/index.html" class="btn">Instructor</a>
+            <a href="auditor/index.html" class="btn">Auditor</a>
+            <a href="administrador/index.html" class="btn">Administrador</a>
+          </div>
+          
+          
+        </div>
+      </div>
+   
+  </div>
+  <div class="modal-footer">
+    <a href="" class="modal-close waves-effect waves-green btn">Enviar</a>
+  </form>
+  </div>
+</div>
+  
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
