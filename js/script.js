@@ -2,6 +2,26 @@ M.AutoInit();
 
 $(document).ready(function() {
     $('input#input_text, textarea#textarea2').characterCounter();
+
+
+
+  $(".chip").mouseenter(function(){
+    $(this).animate({
+      height:'+=5px',
+			width:'+=5px'
+    });
+  });
+
+  $(".chip").mouseleave(function(){
+    $(this).animate({
+      height:'-=5px',
+			width:'-=5px'
+    });
+  });
+
+  $(".logo").hide();
+  $(".logo").fadeOut(2000);
+
   });
 
   $(document).ready(function(){
