@@ -6,17 +6,11 @@ $(document).ready(function() {
 
 
   $(".chip").mouseenter(function(){
-    $(this).animate({
-      height:'+=3px',
-			width:'+=3px'
-    });
+    $(this).fadeTo(1000,0.7);
   });
 
   $(".chip").mouseleave(function(){
-    $(this).animate({
-      height:'-=3px',
-			width:'-=3px'
-    });
+    $(this).fadeTo(1000,1);
   });
 
   $("#logo4").fadeOut(2000).fadeIn(2000);
